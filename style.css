@@ -1,0 +1,46 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffefdb;
+    font-family: sans-serif;
+    color: #352a22;
+}
+
+.mainBox {
+    width: 400px;
+    height: 400px;
+    border:#352a22 4px solid;
+    border-radius: 8px;
+    background-color: burlywood;
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+@keyframes spin {
+    0%{
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(-850px) rotate(360deg);
+      -webkit-transform: translateY(-850px) rotate(360deg);
+    }
+}
+
+.smallBox {
+    min-width: 200%;
+    min-height: 225%;
+    border-radius: 30%;
+    position: absolute;
+    background-color: #ffefdb;
+    animation: spin 5s linear infinite;
+    z-index: 1;
+}
