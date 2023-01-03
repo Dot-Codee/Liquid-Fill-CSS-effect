@@ -1,2 +1,2 @@
-# Coffee-fill-css-Anim
-A small repository meant for displaying the coffee filling css effect
+# Liquid Fill CSS effect
+A small repository meant for displaying the Liquid Fill CSS effect
